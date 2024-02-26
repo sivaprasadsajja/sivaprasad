@@ -1,0 +1,752 @@
+.banner {
+  background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+  background-size: cover;
+  height: 40vw;
+  margin: 10px;
+  padding: 12px;
+  background-attachment: scroll,fixed;
+}
+
+.logo {
+  background-color: white;
+  margin: 70px;
+  
+  flex-direction: row;
+  height: 70px;
+
+}
+
+.logo-icon {
+  background-color: #e47312;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-family: roboto;
+  color: white;
+  padding: 20px;
+}
+
+.icon1 {
+  background-color: #e47312;
+  width: 60px;
+  height: 40px;
+  font-size: 25px;
+  font-family: roboto;
+  color: white;
+  padding: 20px;
+  margin-top: -20px;
+
+}
+
+
+.home {
+  margin: 6px;
+  padding-top: -10px;
+  font-family: roboto;
+
+
+}
+.home:hover{
+  text-decoration: underline;
+  text-decoration-color: #e47312;
+  text-decoration-thickness: 2px;
+}
+
+.home1 {
+  margin: 5px;
+  color: white;
+  padding: 26px;
+  font-family: roboto;
+  background-color: #e47312;
+  margin-right: -10px;
+
+}
+
+.navbar {
+  color: black;
+  text-align: right;
+  margin-top: -70.7px;
+  font-size: 20px;
+
+}
+
+.ban-text {
+  padding: 40px;
+}
+
+.head {
+  color: white;
+  font-size: 50px;
+  font-family: roboto;
+}
+
+.para {
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.but {
+  background-color: #e47312;
+  color: white;
+  padding: 10px;
+  border-style: solid;
+  border-color: #e47312;
+}
+
+.contact-box {
+  background-image: linear-gradient(to bottom, #e47312, #ff4500);
+  margin-top: -10vw;
+  margin-left: 30vw;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+
+
+}
+
+.one {
+  padding: 40px;
+  text-align: center;
+  margin-left: 5vw;
+
+
+}
+
+.pic {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.para1 {
+  color: white;
+  font-family: roboto;
+}
+
+.para2 {
+  color: #d3d3d3;
+  font-family: roboto;
+}
+
+.social-logos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90.5vw;
+
+  margin-top: -15vw;
+
+}
+
+.pic1 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  text-align: right;
+  padding: 22px;
+
+}
+
+
+.FIND-ON-MAP{
+  color: #d3d3d3;
+  font-family: roboto;
+  margin-bottom: 10PX;
+}
+.FIND-ON-MAP:hover{
+  margin-top: 10PX;
+  text-decoration: underline;
+  text-decoration-thickness: 3PX;
+  text-decoration-color: rgb(216, 209, 209);
+}
+
+.our-special-container{
+  display: flex;
+  flex: row;
+  justify-content: center;
+  margin-left: 5%;
+}
+.our-services{
+  margin-left:-5%;
+}
+
+.view-all-services{
+  margin-left: 40%;
+  justify-content: end;
+  margin-top: 7%;
+  color: rgb(85, 88, 88);
+  font-size: 20px;
+  font-weight: bold;
+}
+.view-all-services:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: orange;
+}
+.services{
+   margin-top: 25px;
+   font-size: 120px;
+   margin-left: -5%;
+   color: rgb(255, 250, 244);
+}
+.our-special{
+  margin-top: -40%;
+}
+
+.RENOVATION-section{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+
+}
+.RENOVATION-olny{
+  margin-left: 30px;
+}
+.ren-img{
+  width:50px;
+  height: 50px;
+}
+.RENOVATION-head{
+  font-size: 20px;
+  font-family: "roboto";
+  color: rgb(26, 25, 25);
+}
+.lorem{
+  color: rgb(99, 96, 96);
+  font-size: 17px;
+}
+.learn-more{
+  color: rgb(167, 167, 165);
+  font-family:"roboto" ;
+  font-size: 17px;
+
+}
+.learn-more:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #e47312;
+  text-decoration-thickness: 2px;
+}
+
+.worker {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vw;
+  margin-left: 10px;
+}
+
+.workerpic {
+  width: 40%;
+  padding: 20px;
+}
+
+.whoweare {
+  margin-left: 8vw;
+}
+
+.About {
+  font-size: 100px;
+  margin-top: -20px;
+  color: #f1f1f766;
+  font-family: roboto;
+  margin-left: -20px;
+
+}
+
+.wwa {
+  margin-bottom: -11vw;
+}
+
+
+.who {
+  font-family: roboto;
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+.whopara {
+  color: #a9a9a9;
+  font-family: roboto;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.meet {
+  color: #a9a9a9;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.meet:hover {
+  margin-top: 10PX;
+  text-decoration: underline;
+  text-decoration-thickness: 3PX;
+  text-decoration-color: #e47312;
+}
+
+
+
+.projects-main-head{
+background-color: rgb(242, 247, 247);  
+margin: 20px;
+background-size: cover;
+}
+.projects-section{
+  display: flex;
+  flex-direction: row;
+}
+.projects-head{
+  color: rgb(248, 250, 250);
+  font-size: 120px;
+  margin-top: 5px;
+  margin-left: 30px;
+  letter-spacing: 11px;
+  margin-bottom: 0px;
+  
+}
+.our-work{
+  color: black;
+  font-size: 35px;
+  font-family: "roboto";
+  margin-top: -14%;
+  margin-left: 40px;
+  letter-spacing: 5px;
+}
+.view-all-works{
+  margin-left: 40%;
+  margin-top: 7%;
+}
+.view-all-works:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #e47312;
+  text-decoration-thickness: 2px;
+}
+.three-image-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+
+}
+.image-first{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  
+}
+.image-first1{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  background-size: cover;
+}
+.image-first2{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  background-size: cover;
+  
+}
+.image-first3{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  background-size: cover;
+}
+.image-first4{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  background-size: cover;
+}
+.image-first5{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg);
+  width:33vw ;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  background-size: cover;
+}
+
+
+  
+
+@keyframes blink {
+  0%,100%{opacity: 1;}
+  50%{opacity: 0;}
+  
+}
+.center-text{
+  animation:blink 1s linear infinite;
+  background-color: #f78c2f;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 15px;
+  width: 20%;
+  height: 15%;
+  margin: 35%;
+  margin-left: 40%;
+}
+.TOGETHER-bg{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: #e47312;
+  background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  
+}
+.LET-make-head{
+  font-size: large;
+  font-family: "roboto";
+  font-weight: bold;
+  color: azure;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.LET-make-head:hover{
+  color: #e47312;
+}
+.let-para{
+  color: azure;
+  font-size: 23px;
+}
+.GET-FREE-QUOTE{
+  font-size: 20px;
+  color: antiquewhite;
+  margin-top: 40px;
+}
+
+.GET-FREE-QUOTE:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #e47312;
+  text-decoration-thickness: 2px;
+
+}
+
+.profpic {
+  width: 20vw;
+}
+
+
+
+.imgcard {
+  margin: 10px;
+}
+
+.whitecard {
+  background-color: white;
+  padding: 7.5px;
+  width: 19vw;
+  margin-top: -12px
+}
+
+.social-logos2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15.5vw;
+  margin-top: -14vw;
+
+}
+
+.pic2 {
+  width: 20px;
+  height: 21px;
+  background-color: #e47312;
+  text-align: right;
+  padding: 22px;
+
+}
+.philip{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.testi {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.client {
+  font-size: 100px;
+  color: #f1f1f766;
+}
+
+.first-col {
+  padding: 30px;
+}
+
+.text-card {
+  margin-top: -10vw;
+  padding: 10px;
+}
+
+.Sec-col {
+  padding: 20px;
+}
+
+.round {
+  background-image: linear-gradient(#e47312, #ff4500);
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  padding: 1px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.third-col {
+  padding: 80px;
+}
+
+
+
+
+.LASTET-NEWS{
+box-sizing: border-box;
+padding-top: 100px;
+background-color: #c4b7b7;
+}
+.three-pics-section{
+box-sizing: border-box;
+max-width: 100%;
+padding: 50px 40px;
+display: flex;
+flex-wrap: wrap;
+}
+.blogs{
+position: relative;
+width: calc(33% - 20px);
+margin: 0px 10px;
+background-image: linear-gradient(158deg,#e47312,#ff6361);
+cursor: pointer;
+}
+.oct-image{
+max-width: 100%;
+}
+.date{
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.number{
+width: 80px;
+height: 80px;
+background-image: linear-gradient(45deg,#e77977,#e49957);
+color: #fff;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.number p{
+margin: 0;
+}
+.month{
+width: 80px;
+height: 40px;
+background-color: #fff;
+color: #050508;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 2px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.month p {
+margin: 0;
+text-transform: uppercase;
+}
+.blog-content{
+box-sizing: border-box;
+padding: 25px 56px 25px 30px;
+background-color: #f8b67d;
+background-image: linear-gradient(158deg,#e9a45e,#ff6361);
+}
+.blog-title{
+margin-right: 0px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 26px;
+font-weight: 600;
+color: #fff;
+letter-spacing: 1px;
+}
+
+.read-button.blog{
+color: #fffefd;
+}
+.read-button.blog:hover{
+
+  text-decoration: underline;
+  text-decoration-color:rgb(245, 245, 247) ;
+  text-decoration-thickness: 4px;
+}
+.first-footer{
+box-sizing: border-box;
+max-width: 100%;
+margin-top: 100px;
+background-image: linear-gradient(56deg,#d15c25,#ff6361);
+padding: 7% 5% 7% 3%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+  margin: 25px;
+}
+.TRUSTED.blog{
+color: #fff;
+margin: 0;
+font-weight: 600;
+letter-spacing: 1px;
+}
+.logo-t.blog{
+font-size: 24px;
+letter-spacing: 3px;
+font-weight: 600;
+margin: 0;
+  color: #ffffff;
+
+}
+
+
+
+
+.footer{
+margin-top: -5%;
+  position: relative;
+  width: 90%;
+  margin: -2% auto;
+  padding: 70px 25px 120px 25px;
+  border-top: 1px solid #2f3038;
+ 
+  background-color:  rgba(13, 9, 49, 0.938);
+  display: flex;
+}
+.footer-list{
+  box-sizing: border-box;
+  width: calc(33.33% - 50px);
+  margin: 0px 25px;
+  padding-right: 50px;
+}
+.footer-list-3{
+  margin-left: 5%;
+}
+.about-side-line{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.about-line{
+  margin: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #dd524f;
+}
+.phone-text.blog{
+  font-size: 17px;
+  line-height: 30px;
+  color: #d3d3d3;
+  
+}
+.FINANCIAL-button{
+  color: #ffffff;
+  font-size: medium;
+}
+.FINANCIAL-button.foo{
+  margin: 0;
+  font-size: medium;
+  color: #d3d3d3;
+}
+.PHONE-NUMBER.contact{
+  display: inline-block;
+  font-size: 17px;
+  margin: 0;
+  color: #d3d3d3;
+}
+.blog-title.width{
+  margin: 0;
+  width: 200px;
+  padding-right: 14px;
+  color: #d3d3d3;
+}
+.job-title.email{
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-left: 35px;
+  color: #d3d3d3;
+}
+
+.footer-image{
+  display: inline-block;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.end.lowest{
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.nuuk-image{
+  width:70px;
+  height:50px;
+  background-color: rgb(255, 123, 0);
+  color: #d3d3d3;
+  padding: 20px;
+}
+.number-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 20px;
+}
+
+.number-170{
+  font-size: 60px;
+  color: #df8209;
+
+}
+.para-170{
+  color: #a9a9a9;
+  font-size: 15px;
+}
+.first-number{
+  text-align: center;
+  margin: 40px;
+  margin-left: 10%;
+}
+
